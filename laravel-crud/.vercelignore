@@ -17,3 +17,11 @@
 
 # Ignore documentation files
 /docs
+
+# Ignore Laravel storage and cache directories
+/storage
+/bootstrap/cache
+
+# Ignore compiled assets (if you're using Laravel Mix or other build tools)
+public/js/*
+public/css/*

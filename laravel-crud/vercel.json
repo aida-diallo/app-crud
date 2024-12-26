@@ -1,21 +1,16 @@
 {
     "version": 2,
     "builds": [
-        {
-            "src": "api/index.php",
-            "use": "@vercel/php"
-        }
+      {
+        "src": "resources/js/app.js",
+        "use": "@vercel/static-build"
+      }
     ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
-    ],
-    "env": {
-        "APP_ENV": "production",
-        "APP_DEBUG": "false",
-        "APP_URL": "https://your-app-url.vercel.app"
-    },
-    "installCommand": "composer install && npm install && npm run build"
-}
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ]
+  }
+  

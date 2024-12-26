@@ -9,7 +9,7 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'public/build', // Chemin où les fichiers générés sont stockés
-        emptyOutDir: true, // Supprime les anciens fichiers de build avant un nouveau build
+        outDir: 'public/build', 
+        emptyOutDir: true, 
     },
 });

@@ -1,0 +1,19 @@
+# Ignore node_modules and vendor directories
+/node_modules
+/vendor
+
+# Ignore test directories
+/tests
+
+# Ignore local environment files
+.env
+
+# Ignore git directory
+.git
+
+# Ignore IDE configurations
+/.vscode
+/.idea
+
+# Ignore documentation files
+/docs

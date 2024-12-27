@@ -25,3 +25,7 @@
 # Ignore compiled assets (if you're using Laravel Mix or other build tools)
 public/js/*
 public/css/*
+**/libicudata.so*
+**/psalm
+vendor/**
+node_modules/**

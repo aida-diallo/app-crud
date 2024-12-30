@@ -30,8 +30,7 @@ RUN chown -R www-data:www-data /var/www \
 
 # Installer les dépendances PHP et JavaScript
 RUN composer install --optimize-autoloader --no-dev \
-    && npm install \
-    && npm run build
+     npm run build
 
 # Exposer le port 8000 pour Render
 EXPOSE 8000
